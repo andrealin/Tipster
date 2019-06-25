@@ -42,4 +42,33 @@
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
 }
 
+- (IBAction)onEditingBegin:(id)sender {
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        self.mealBillField.frame = CGRectMake(self.mealBillField.frame.origin.x,
+                                              self.mealBillField.frame.origin.y + 30,
+                                              self.mealBillField.frame.size.width,
+                                              self.mealBillField.frame.size.height);
+    }];
+    
+    [UIView animateWithDuration:1 animations:^{
+        self.tipLabel.alpha = 0;
+    }];
+    
+}
+- (IBAction)onEditingEnd:(id)sender {
+    
+    CGRect newFrame = self.mealBillField.frame;
+    newFrame.origin.y -= 30;
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        self.mealBillField.frame = newFrame;
+    }];
+    
+    [UIView animateWithDuration:1 animations:^{
+        self.tipLabel.alpha = 1;
+    }];
+    
+}
+
 @end
