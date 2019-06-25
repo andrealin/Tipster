@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *billField;
+@property (weak, nonatomic) IBOutlet UITextField *mealBillField;
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
@@ -30,7 +30,7 @@
 }
 
 - (IBAction)onEdit:(id)sender {
-    double bill = [self.billField.text doubleValue];
+    double bill = [self.mealBillField.text doubleValue];
     
     NSArray *percentages = @[@(0.15), @(0.2), @(0.22)];
     

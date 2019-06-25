@@ -76,6 +76,9 @@
                                     <segment title="20%"/>
                                     <segment title="22%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="onEdit:" destination="BYZ-38-t0r" eventType="valueChanged" id="G2G-PP-kRo"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -87,7 +90,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="td8-tI-eIR"/>
                     <connections>
-                        <outlet property="billField" destination="IhG-7D-DEo" id="P6e-WH-GwB"/>
+                        <outlet property="mealBillField" destination="IhG-7D-DEo" id="Vfv-Qb-fC7"/>
                         <outlet property="tipControl" destination="FQK-a0-8JS" id="x9N-ZQ-uUz"/>
                         <outlet property="tipLabel" destination="532-kT-Chk" id="940-bD-8gA"/>
                         <outlet property="totalLabel" destination="sSA-uz-ifS" id="QNd-Y6-6Vs"/>
