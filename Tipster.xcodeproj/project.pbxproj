@@ -15,6 +15,7 @@
 		D279158E22C2C2D300E8446B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D279158D22C2C2D300E8446B /* main.m */; };
 		D279159822C2C2D300E8446B /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D279159722C2C2D300E8446B /* TipsterTests.m */; };
 		D27915A322C2C2D300E8446B /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D27915A222C2C2D300E8446B /* TipsterUITests.m */; };
+		D27915B522C2F7E900E8446B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27915B422C2F7E900E8446B /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D279159E22C2C2D300E8446B /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27915A222C2C2D300E8446B /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		D27915A422C2C2D300E8446B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27915B322C2F7E900E8446B /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D27915B422C2F7E900E8446B /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		D279157D22C2C2D100E8446B /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
+				D27915B322C2F7E900E8446B /* SettingsViewController.h */,
+				D27915B422C2F7E900E8446B /* SettingsViewController.m */,
 				D279157E22C2C2D100E8446B /* AppDelegate.h */,
 				D279157F22C2C2D100E8446B /* AppDelegate.m */,
 				D279158122C2C2D100E8446B /* ViewController.h */,
@@ -265,6 +270,7 @@
 				D279158322C2C2D100E8446B /* ViewController.m in Sources */,
 				D279158E22C2C2D300E8446B /* main.m in Sources */,
 				D279158022C2C2D100E8446B /* AppDelegate.m in Sources */,
+				D27915B522C2F7E900E8446B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
